@@ -1,0 +1,28 @@
+/* ==== RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #d3dff0;
+  color: #333;
+}
+/* ==== LAYOUT ==== */
+.layout {
+  display: flex;
+  width: 100%;
+  min-height: 110vh;    /* Que ocupe toda la altura de la ventana */
+
+}
+/* ========== NAVBAR ========== */
+
+ 
+/* Main content */
+.main-content {
+  margin-left: 0px;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
